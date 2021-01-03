@@ -16,8 +16,8 @@ def assembled_aoh
   { name:  "Kate Gompert", occupation: "None" },
   { name:  "Bruce Green", occupation: "Fan of Mildred" }
   ]
-  group_o_ppl.sort
 end
+group_o_ppl.sort
 
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
