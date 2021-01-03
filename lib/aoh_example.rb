@@ -15,7 +15,6 @@ def assembled_aoh
     { :name => "Kate Gompert", :occupation => "None" },
     { :name => "Bruce Green", :occupation => "Fan of Mildred" }
   ]
-  # group_o_ppl.sort
 end
 
 def literal_aoh
@@ -31,6 +30,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  aoh[row][key]
 end
 
 def aoh_update(aoh, row, key, new_value)
