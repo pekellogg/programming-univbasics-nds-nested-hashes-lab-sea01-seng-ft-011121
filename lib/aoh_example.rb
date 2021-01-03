@@ -16,7 +16,7 @@ def assembled_aoh
     { name:  "Kate Gompert", occupation: "None" },
     { name:  "Bruce Green", occupation: "Fan of Mildred" }
   ]
-  group_o_ppl.sort
+  # group_o_ppl.sort
 end
 
 def literal_aoh
